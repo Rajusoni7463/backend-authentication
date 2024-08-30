@@ -3,7 +3,7 @@ const { signup, login, getUsers, getCurrentUser } = require("../controllers/user
 const verifyToken=require("../middleware/authMiddleware")
 const router= express.Router();
 
-router.get();
+
 
 router.post("/signup",signup);
 router.post("/login",login);
